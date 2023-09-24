@@ -1,4 +1,4 @@
-import styles from "./VentoColumns.module.css"
+import styles from "./ventoColumns.module.css"
 
 
 
