@@ -1,0 +1,76 @@
+
+.rowContainer{
+    display: flex;
+    justify-content: center;
+
+}
+.rowOne{
+    display: flex;
+    flex-direction: column;
+    
+    width: 80%;
+    z-index: 10;
+    margin: 25vh 6vw 0vh 6vw;
+    height: 450px;
+
+
+}
+
+.rowTwo{
+    width: 40%;
+    z-index: 10;
+    margin: 150px 50px 0px 0px;
+
+}
+
+.smn{
+    height: 85vh;
+    z-index: 50;
+    position: relative;
+
+ 
+}
+.animationText{
+    position: absolute;
+    margin-left: 160px;
+    margin-top: 70px;
+
+ }
+    
+
+
+.tagline{
+    margin: 20px;
+    font-size: 24px;
+}
+.description{
+    margin-top: 80px;
+}
+
+.headerLogo{
+    width:350px;
+    z-index: 10;
+    margin-right: 5vw;
+
+}
+.buttonConect{
+    display: flex;
+
+    width: 180px;
+    align-items: center;
+    margin: auto;
+    justify-content:  space-between;
+    border-radius: 8px;
+  
+}
+.button{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 22px;
+    gap: 5px;
+    padding: 5px;
+    border: none;
+    
+   
+}

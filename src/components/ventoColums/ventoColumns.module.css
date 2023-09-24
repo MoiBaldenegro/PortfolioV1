@@ -1,0 +1,85 @@
+
+.Container{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    display: grid;
+    grid-template-columns:repeat(4, 252px);
+    grid-template-rows: repeat(7, 230px);
+}
+
+section{
+    background-color: transparent;
+    border: 4px solid #14213d13;
+    box-shadow: 0 0 25px 0 #14213d4d;
+    
+    margin: 4px;
+    border-radius: 12px;
+}
+
+.presentacion{
+    grid-column: 1 / 4;
+    grid-row: 1 / 3 ;
+}
+.lenguaje{
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;
+}
+.theme{
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+}
+
+.date{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+.linkeDin{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    background-image: url("../../assets/ventoColumnsImg/icons8-linkedin-480.svg");
+    background-size: auto;
+}
+.glamourglow{
+    grid-column: 1 / 3;
+    grid-row: 4 / 5;
+    background-image: url("../../assets/ventoColumnsImg/glamour.gif");
+    background-size:cover;
+}
+
+.animation{
+    background-image: url("../../assets/ventoColumnsImg/dave.gif");
+    background-size: cover;
+    opacity: .3;
+    grid-column: 3 / 5;
+    grid-row: 3 / 4;
+}
+.doubleFetching {
+    background-image: url("../../assets/ventoColumnsImg/CatFact.jpg");
+    background-size: cover;
+}
+.videogames{
+    background-image: url("../../assets/ventoColumnsImg/videogames.jpg");
+    background-size: cover;
+}
+.encriptador{
+    background-image: url("../../assets/ventoColumnsImg/encriptador.jpg");
+    background-size:cover;
+}
+.pi{
+    background-image: url("../../assets/ventoColumnsImg/pi.jpg");
+    background-size: cover;
+}
+.rickYmorty{
+    background-image: url("../../assets/ventoColumnsImg/rickymorty.jpg");
+    background-size: cover;
+}
+
+.userList{
+    background-image: url("../../assets/ventoColumnsImg/userList.jpg");
+    background-size:cover;
+}
+.movies{
+    background-image: url("../../assets/ventoColumnsImg/movies.jpg");
+    background-size: cover;
+}
